@@ -1,5 +1,10 @@
   writeCaution('userId', 'emptyId');
-
+  writeCaution('userPassword', 'emptyPw');
+  writeCaution('confirmPw', 'diffPw');
+  writeCaution('firstName', 'emptyName');
+  writeCaution('lastName', 'emptyName');
+  writeCaution('userEmail', 'emptyEmail');
+  
 
     function writeCaution(userinfo, cautioninfo) {
       document.getElementById(userinfo).onblur = function () {
